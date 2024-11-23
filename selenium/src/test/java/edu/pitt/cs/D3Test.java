@@ -26,6 +26,8 @@ import java.net.URL;
 import org.junit.FixMethodOrder;
 import java.time.Duration;
 import org.junit.runners.MethodSorters;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class D3Test {
   private WebDriver driver;
